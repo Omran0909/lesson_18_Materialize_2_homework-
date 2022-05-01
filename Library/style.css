@@ -1,0 +1,20 @@
+.margin_top {
+    margin-top: 20px;
+}
+
+.margin_top_minus {
+    margin-top: -35px;
+}
+
+.margin_top_buttons {
+    margin-top: 15px;
+}
+
+.transparent_background {
+    width: 100%;
+    background: rgb(0, 0, 0, .3);
+}
+
+.icons_margin_top {
+    margin-top: 10px;
+}

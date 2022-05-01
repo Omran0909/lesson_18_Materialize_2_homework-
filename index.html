@@ -15,6 +15,8 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <link rel="stylesheet" href="Library/style.css">
+
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                 <div class="nav-wrapper">
                     <a href="#" data-target="mobile-demo-menu" class="sidenav-trigger"><i
                             class="material-icons">menu</i></a>
-                    <a href="#" class="brand-logo center">DayToDay</a>
+                    <a href="#" class="brand-logo">DayToDay</a>
                     <div class="col s12 m3 right">
                         <a href="#" class="collection-item white-text"><span><i
                                     class="material-icons left">account_circle</i></span>Luella Habard</a>
@@ -51,7 +53,7 @@
                         class="material-icons left">image</i></span>Media</a></li>
     </ul>
 
-    <div class="container">
+    <div class="container margin_top">
         <div class="row">
             <!-- left side menu -->
             <div class="col left_side_menu margin_top s12 m3 l3 xl3 hide-on-med-and-down">
@@ -75,34 +77,145 @@
             </div>
 
             <div class="col s12 m12 l9 xl9">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col s4 m4 l4 xl4">
-                                    <p>
-                                        Events
-                                    </p>
-                                </div>
-                                <div class="col s4 m4 l4 xl4">
-                                    <button aria-placeholder="Search">
-
-                                    </button>
-                                </div>
-                                <div class="col s2 m2 l2 xl2">
-
-                                </div>
-                                <div class="col s2 m2 l2 xl2">
-
+                <div class="row">
+                    <!-- title -->
+                    <div class="col s12 m12 l12 xl12">
+                        <div class="row margin_top">
+                            <div class="col s4 m4 l4 xl4 left-align">
+                                <p>
+                                    Events
+                                </p>
+                            </div>
+                            <div class="col s8 m8 l8 xl8">
+                                <div class="row">
+                                    <div class="col s8 m8 l8 xl8">
+                                        <input placeholder="Search"></input>
+                                    </div>
+                                    <div class="col s2 m2 l2 xl2">
+                                        <a class="btn-floating btn-large waves-effect waves-light indigo"><i
+                                                class="material-icons">search</i></a>
+                                    </div>
+                                    <div class="col s2 m2 l2 xl2">
+                                        <a class="btn-floating btn-large waves-effect waves-light indigo"><i
+                                                class="material-icons">add</i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col"></div>
-                        <div class="col"></div>
-                        <div class="col"></div>
                     </div>
+                    <!-- first box -->
+                    <div class="col margin_top_minus">
+                        <div class="row">
+                            <div class="col s12 m12 l12 xl12">
+                                <div class="card">
+                                    <div class="card-image s12 m12 l12 xl12">
+                                        <img
+                                            src="https://t3.ftcdn.net/jpg/03/15/34/90/360_F_315349043_6ohfFyx37AFusCKZtGQtJR0jqUxhb25Y.jpg">
+                                        <span class="card-title transparent_background s12 m12 l12 xl12">Norwegian nature</span>
+                                    </div>
+                                    <div>
+                                        <div class="row s12 m12 l12 xl12 grey-text" style="margin-left: 20px;">
+                                            <div class="col s3 m3 l3 xl3 valign-wrapper">
+                                                <i class="material-icons">access_time</i>
+                                                <p>10:00 AM</p>
+                                            </div>
+                                            <div class="col s4 m4 l4 xl4 valign-wrapper">
+                                                <i class="material-icons">today</i>
+                                                <P>September 4. 2019</P>
+                                            </div>
+                                            <div class="col s4 m4 l4 xl4 valign-wrapper">
+                                                <i class="material-icons">add_location</i>
+                                                <p>New Orleans</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-content s12 m12 l12 xl12 margin_top_minus">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestias
+                                            recusandae quasi eligendi est commodi quibusdam ut et nesciunt voluptatem.
+                                        </p>
+                                    </div>
+                                    <div class="card-action s12 m12 l12 xl12">
+                                        <a class="waves-effect waves-teal btn-flat indigo-text">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- secdond box -->
+                            <div class="col s12 m12 l12 xl12">
+                                <div class="card">
+                                    <div class="card-image s12 m12 l12 xl12">
+                                        <img
+                                            src="https://media.istockphoto.com/photos/gorgeous-landscape-panorama-in-autumn-picture-id598060548">
+                                        <span class="card-title transparent_background s12 m12 l12 xl12">Summer camps</span>
+                                    </div>
+                                    <div>
+                                        <div class="row s12 m12 l12 xl12 grey-text" style="margin-left: 20px;">
+                                            <div class="col s3 m3 l3 xl3 valign-wrapper">
+                                                <i class="material-icons">access_time</i>
+                                                <p>10:00 AM</p>
+                                            </div>
+                                            <div class="col s4 m4 l4 xl4 valign-wrapper">
+                                                <i class="material-icons">today</i>
+                                                <P>September 4. 2019</P>
+                                            </div>
+                                            <div class="col s4 m4 l4 xl4 valign-wrapper">
+                                                <i class="material-icons">add_location</i>
+                                                <p>New Orleans</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-content s12 m12 l12 xl12 margin_top_minus">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestias
+                                            recusandae quasi eligendi est commodi quibusdam ut et nesciunt voluptatem.
+                                        </p>
+                                    </div>
+                                    <div class="card-action s12 m12 l12 xl12">
+                                        <a class="waves-effect waves-teal btn-flat indigo-text">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third box -->
+                            <div class="col s12 m12 l12 xl12">
+                                <div class="card">
+                                    <div class="card-image s12 m12 l12 xl12">
+                                        <img
+                                            src="https://thumbs.dreamstime.com/b/mountain-nature-panorama-dolomites-alps-italy-69046581.jpg">
+                                        <span class="card-title transparent_background s12 m12 l12 xl12">Nowhere to be found</span>
+                                    </div>
+                                    <div>
+                                        <div class="row s12 m12 l12 xl12 grey-text" style="margin-left: 20px;">
+                                            <div class="col s3 m3 l3 xl3 valign-wrapper">
+                                                <i class="material-icons">access_time</i>
+                                                <p>10:00 AM</p>
+                                            </div>
+                                            <div class="col s4 m4 l4 xl4 valign-wrapper">
+                                                <i class="material-icons">today</i>
+                                                <P>September 4. 2019</P>
+                                            </div>
+                                            <div class="col s4 m4 l4 xl4 valign-wrapper">
+                                                <i class="material-icons">add_location</i>
+                                                <p>New Orleans</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-content s12 m12 l12 xl12 margin_top_minus">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat molestias
+                                            recusandae quasi eligendi est commodi quibusdam ut et nesciunt voluptatem.
+                                        </p>
+                                    </div>
+                                    <div class="card-action s12 m12 l12 xl12">
+                                        <a class="waves-effect waves-teal btn-flat indigo-text">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second box -->
+                    <div class="col"></div>
+                    <div class="col"></div>
                 </div>
             </div>
+
+
 
             <!--JavaScript at end of body for optimized loading-->
             <script type="text/javascript" src="./Library/all.js"></script>
